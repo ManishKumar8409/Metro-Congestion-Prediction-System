@@ -1,0 +1,60 @@
+.simulation-container {
+  padding: 20px;
+}
+
+.simulation-form {
+  display: flex;
+  gap: 30px;
+  align-items: end;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.simulation-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.simulation-form input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  margin-top: 5px;
+}
+
+.simulation-form button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.simulation-result {
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+.comparison-row {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.risk-badge {
+  margin-top: 20px;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.alert-text {
+  margin-top: 15px;
+  color: #ef4444;
+  font-weight: 500;
+}
